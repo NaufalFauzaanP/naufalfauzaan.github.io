@@ -86,8 +86,10 @@ body{
 /* Responsive di layar mobile middle */
 @media(min-width:321px) and (max-width: 425px){
     .container{
-        width: 380px;
-        
+        width: 350px;
+        margin-left: auto;
+        margin-right: auto;
+        box-shadow: 0px 8px 8px rgba(0,0,0,75%);
     }
     .pp{
         width: 110px;
@@ -101,7 +103,7 @@ body{
         background-position-y: 100px;
     }
     .container{
-        margin-top: 30px;
+        margin-top: 10px;
     }
     .data{
         font-size: 35px;
